@@ -1,0 +1,14 @@
+﻿<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+	Sub Application_OnStart()
+		'//	Local String Connexion 
+		Application("PC") = "Provider=SQLOLEDB;Data Source=HP-PC;Initial Catalog=kheops_ola;User ID=kheops_ola;Password=Ola2.ES#2020"
+	End Sub
+
+	'Sub Session_OnStart() 
+
+	'End Sub
+
+	'Sub Session_OnEnd() 
+
+	'End Sub
+</SCRIPT>

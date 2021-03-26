@@ -1,0 +1,260 @@
+﻿BODY
+{
+	font-size:10px;
+	font-family:Verdana;
+	color:#333333;
+	margin:0px;
+	background-image:url(../Images/back.png);
+}
+#TdEntete
+{
+
+	background-image:url(../Images/entete.png);
+	background-repeat:no-repeat;
+}
+#TdEntete Table
+{
+	font-size:10px;
+	font-family:Verdana;
+	color:#333399;
+}
+
+#DivEntete
+{
+	overflow:hidden;
+	height:33px;
+	width:640px;
+}
+#DivEntete Table
+{
+	margin-top:2px;
+	height:28px;
+	width:640px;
+}
+
+#DivEntete Table input
+{
+	font-size:11px;
+	font-family:Verdana;
+	color:#333399;
+	background-color:#FFCCFF;
+	cursor:hand;
+}
+
+#LinkSepEntete
+{
+	width:5px;
+	background:url('../Images/sep.png');
+}
+#LoginEntete
+{
+	width:24px;
+	height:24px;
+	cursor:hand;
+	margin-top:1px;
+}
+A
+{
+	font-weight:bold;
+    	color:#000099;
+    	text-decoration:none;
+}
+A:hover
+{
+	font-weight:bold;
+    color:#000099;
+    text-decoration:underline;
+}
+
+.DivScroll 
+{
+	overflow-y: scroll;
+	height:80%;
+}
+
+.DivScroll table thead tr td 
+{
+	position: sticky;
+	top: 0px;
+	height: 35px;
+}
+
+#TabForm, #TabScroll, #TabData
+{
+	font-weight: bold;
+	font-size: 12pt;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+#TabForm 
+{
+	border-radius: 6px;
+	border: 1px solid #333333;
+}
+
+#TabScroll, #TabData
+{
+	border: 2px solid #343A40;
+}
+
+#TabScroll
+{
+	border-top: 0px;
+}
+
+#TabScroll thead tr td, #TabData thead tr td
+{
+	border-bottom: 2px solid gray;
+	padding-left:5px;
+	padding-right:5px;
+	background-color: #343A40 !important;
+	color: #FFFFFF;
+}
+
+#TabData {
+	max-width: 340px;
+}
+
+#TabData thead tr td {
+	height: 40px;
+}
+
+#TabScroll tbody tr:hover td 
+{
+	background-color: #FFCC00;
+	cursor: pointer;
+}
+
+#TabScroll tbody tr:nth-child(2n) 
+{
+	background-color: #F0F8FF;
+	color: #C71585;
+}
+
+#TabScroll tbody tr:nth-child(2n+1)
+{
+	background-color: #E6E6FA;
+	color: #000080;
+}
+
+#TabScroll tbody tr td, #TabData tbody tr td 
+{
+	border-bottom: 1px solid gray;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#TabScroll tbody tr td:nth-child(2) 
+{
+	border-left:1px solid #343A40;
+	border-right:1px solid #343A40;
+}
+
+#TabScroll tfoot tr 
+{
+	height: 12px;
+	background-color: #343A40 !important;
+}
+
+#TabForm input, #TabScroll input, #TabScroll button
+{
+	font-size:12px;
+	font-family:Verdana;
+	color:#333399;
+	background-color:#FFCCFF;
+	height:28px;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+#TabForm button
+{
+	background-color:transparent;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+#TabForm button:hover
+{
+	background-color:#FFCCFF;
+}
+
+#TabForm select
+{
+	font-size:13px;
+	font-family:Verdana;
+	color:#333399;
+	background-color:#FFCCFF;
+	height:30px;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+#TabForm textarea
+{
+	font-size:12px;
+	font-family:Verdana;
+	color:#333399;
+	background-color:#FFCCFF;
+	cursor:pointer;
+}
+
+
+#DivData {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 180px;
+	border: 0px solid yellow;
+	max-width: 340px;
+	visibility: hidden;
+}
+
+#DivDataHeader {
+	cursor: move;
+}
+
+#DivDataHeader tr td img {
+	display: inline-block;
+	cursor: pointer;
+	height: 30px;
+	float: left;
+}
+
+#TabDataBody
+{
+	cursor:move;
+}
+
+#TdMsg {
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: red;
+	text-align: justify;
+}
+
+.Titre_2 
+{
+    color:#007bff;
+    font-size:1rem;
+    font-weight:bold;
+}
+
+li
+{
+    text-align:justify;
+}
+
+.jumbotron
+{
+    width:100%;
+    border:2px solid #333333;
+    border-collapse:separate;
+    border-spacing:0;
+    border-radius:14px;
+}
