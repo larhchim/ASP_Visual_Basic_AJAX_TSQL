@@ -1,7 +1,7 @@
-﻿<%Session("PageTitle") = "Accueil"%>
+<%Session("PageTitle") = "Accueil"%>
 <html lang="fr">
     <head>
-        <title>Ola Blanca - Résidence Balnéaire - Accueil</title>
+        <title> Accueil</title>
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta http-equiv="Content-Type" cont class="jumbotron"ent="text/html; charset=utf-8" />
